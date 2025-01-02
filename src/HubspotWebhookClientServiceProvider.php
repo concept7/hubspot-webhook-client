@@ -17,9 +17,6 @@ class HubspotWebhookClientServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('hubspot-webhook-client')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_hubspot_webhook_client_table')
-            ->hasCommand(HubspotWebhookClientCommand::class);
+            ->hasConfigFile();
     }
 }
