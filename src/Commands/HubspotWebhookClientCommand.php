@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Concept7\HubspotWebhookClient\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class HubspotWebhookClientCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'hubspot-webhook-client';
 
     public $description = 'My command';
 
