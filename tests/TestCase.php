@@ -2,9 +2,9 @@
 
 namespace Concept7\HubspotWebhookClient\Tests;
 
+use Concept7\HubspotWebhookClient\HubspotWebhookClientServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Concept7\HubspotWebhookClient\HubspotWebhookClientServiceProvider;
 
 class TestCase extends Orchestra
 {

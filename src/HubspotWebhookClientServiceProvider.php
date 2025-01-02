@@ -2,9 +2,9 @@
 
 namespace Concept7\HubspotWebhookClient;
 
+use Concept7\HubspotWebhookClient\Commands\HubspotWebhookClientCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Concept7\HubspotWebhookClient\Commands\HubspotWebhookClientCommand;
 
 class HubspotWebhookClientServiceProvider extends PackageServiceProvider
 {
