@@ -2,7 +2,6 @@
 
 namespace Concept7\HubspotWebhookClient;
 
-use Concept7\HubspotWebhookClient\Commands\HubspotWebhookClientCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -17,6 +16,7 @@ class HubspotWebhookClientServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('hubspot-webhook-client')
-            ->hasConfigFile();
+            ->hasConfigFile()
+            ->hasRoute('web');
     }
 }
