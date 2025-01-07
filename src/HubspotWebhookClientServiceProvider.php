@@ -9,14 +9,17 @@ class HubspotWebhookClientServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
         $package
             ->name('hubspot-webhook-client')
             ->hasConfigFile()
             ->hasRoute('web');
+    }
+
+    public function bootingPackage(): void
+    {
+        $configs = config('webhook-client.configs');
+        $configs[] = config('hubspot-webhook-client');
+
+        config()->set('webhook-client.configs', $configs);
     }
 }
