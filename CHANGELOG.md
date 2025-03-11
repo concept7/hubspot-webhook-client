@@ -2,6 +2,12 @@
 
 All notable changes to `hubspot-webhook-client` will be documented in this file.
 
+## Release 1.1.0 - 2025-03-11
+
+- Add Line Item Property Change event
+
+**Full Changelog**: https://github.com/concept7/hubspot-webhook-client/compare/1.0.0...1.1.0
+
 ## Release 1.0.0 - 2025-02-26
 
 Upgrade to Laravel 12
