@@ -2,6 +2,12 @@
 
 All notable changes to `hubspot-webhook-client` will be documented in this file.
 
+## Release 1.2.0 - 2025-03-20
+
+- Add property change events
+
+**Full Changelog**: https://github.com/concept7/hubspot-webhook-client/compare/1.1.0...1.2.0
+
 ## Release 1.1.0 - 2025-03-11
 
 - Add Line Item Property Change event
