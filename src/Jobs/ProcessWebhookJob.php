@@ -22,6 +22,7 @@ class ProcessWebhookJob extends SpatieProcessWebhookJob
                 'deal.deletion' => Events\DealDeletion::dispatch($event),
                 'deal.propertyChange' => Events\DealPropertyChange::dispatch($event),
                 'line_item.propertyChange' => Events\LineItemPropertyChange::dispatch($event),
+                'product.propertyChange' => Events\ProductPropertyChange::dispatch($event),
                 default => throw new UnhandledMatchError,
             };
         });
