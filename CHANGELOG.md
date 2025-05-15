@@ -2,6 +2,10 @@
 
 All notable changes to `hubspot-webhook-client` will be documented in this file.
 
+## Release 1.2.2 - 2025-05-15
+
+**Full Changelog**: https://github.com/concept7/hubspot-webhook-client/compare/1.2.1...1.2.2
+
 ## Release 1.2.1 - 2025-05-12
 
 ### What's Changed
